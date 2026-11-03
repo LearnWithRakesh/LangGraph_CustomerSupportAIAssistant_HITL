@@ -1,0 +1,151 @@
+LangChain vs LangGraph
+
+LangChain helps developers build LLM-powered applications using models, prompts, tools, retrieval, and agent abstractions.
+
+
+OpenAI - ChatGPT - chatbot
+Claude - CaldueAi - chatbot
+Gemini - chatbot
+Hugginface - BharatGen, Sarvam 
+Grok - x.com / twitter
+
+Agregators - Co-pilot
+
+Algorithmic layer - mathematical expressions
+
+Enterprise edition of the LLMs - Private Netwok boudries
+
+5% of the public data
+95% of the internet data is private
+
+
+RAG - 
+EVA - OpenAI LLM - API
+HR - ATS 
+-> policies
+-> Documents
+-> System and process
+
+
+python -> SDK(OpenAI)LLM + Documents 
+
+-> policies
+-> Documents
+-> System and process
+
+Vector Database - Semantic search - Similarity search
+
+King, Queen and Truck -> numerical representation -> Embeddings
+
+query - King
+
+retrieval - easy - Similarity search
+Evaluation Techniques - checks
+
+
+Linear Flow - LangChain - As the Dr. Spceilists toolkit
+User Query -> LLM -> Strcutured response
+
+Request - LangChain
+
+user question -> Prompt + Model -> retrieval / tool(sharepoint or web scrapping) -> Answer
+
+zero shot prompting - prompt with zero examples to train and get the structured output
+
+One Shot prompting - we provide one example so that llm learns the patterns shows the resposne in similar way
+
+Few Shot Prompting - more than 1 example - then it produces the response in exactly the example stndards and rules and norms it follwos
+
+
+Project - Prompt Engineering style or Agentic AI style - cycles, reflection
+
+Input(Prompt) to LLM - 
+
+Model - 
+
+System message - Context
+User message - prompt
+AI message - 
+
+Skills - 
+
+LangGraph (Stateful Orcestration)
+
+Start -> Analyze -> Decide nexxt step -> Revise
+                                      -> Approve (HITL)
+
+                                      
+Langchain - Pricmary focus - LLM application components and agent abstractions
+LangGraph - Workflow orchestration and execution control
+
+langchain - Fundamental Building blocks are - Models, prompts, tools, retriers, agents
+langGraph - Fundamental Building blocks are - state, node, edges, reducres, checkpoints
+
+
+Why do we need a langGraph?
+Let us consider an AI System, that processes a 5 Lakh rupees business loan application
+
+It must vey the documents, 
+Calucalte the eligibility
+Check fraud indicators, 
+missing request information
+Obtain human approval,
+Retain a complete decision history
+
+So here - Simple prompt-to-response application is not sufficient - 
+because - It has multiple states, 
+conditional branches, possible retries and if any Human dependencies
+
+
+
+langGraph becomes valuable - 
+
+1. What step is currently running?
+2. What information has already been collected
+3. which action should happen next?
+4. Should the workflow repeat an earlier step?
+5. can execution pause for several days
+6. Can another worker resume the same case?
+7. What happens when a node fails - do we have retry mechanism (fail - safe mechanism)
+8. How can we prevent an action from being executed twice?
+
+
+Python -> SDK(OPENAI, Anthopic) + Langchain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
